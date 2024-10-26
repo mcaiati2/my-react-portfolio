@@ -2,13 +2,13 @@ import Hero from "../components/Hero";
 import Work from "../components/Work";
 
 function Landing() {
-    return (
-        <>
-        <Hero />
+	return (
+		<>
+			<Hero />
 
-        <Work />
-        </>
-    )
+			<Work />
+		</>
+	)
 }
 
 export default Landing;

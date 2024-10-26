@@ -16,14 +16,14 @@ function App() {
       {/* any elements output to the window will be output to the main element parent(?) */}
       <main>
 
-      {/* switch between components based on what page we're on. what react router is for! */}
-      <Routes>
+        {/* switch between components based on what page we're on. what react router is for! */}
+        <Routes>
 
-        {/* Route tag needs two props. path name you want to listen for. / for the root of our address. and what element you want to show */}
-        <Route path="/" element={<Landing />} />
-        <Route path="/contact" element={<ContactForm />} />
+          {/* Route tag needs two props. path name you want to listen for. / for the root of our address. and what element you want to show */}
+          <Route path="/" element={<Landing />} />
+          <Route path="/contact" element={<ContactForm />} />
 
-      </Routes>
+        </Routes>
       </main>
 
       <Footer />

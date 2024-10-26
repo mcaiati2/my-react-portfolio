@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react';
+import { useState, useEffect } from 'react';
 import axios from 'axios';
 
 function Hero() {
@@ -21,14 +21,14 @@ function Hero() {
     //parentheses to write multiple lines of html
     return (
         <section className="hero">
-        <div className="image"></div>
-        <div className="hero-text">
-            <h4>Software Developer</h4>
-            <p>Code or something!</p>
-            <p className="text-center">{quote}</p>
-        </div>
-        <div>
-        </div>
+            <div className="image"></div>
+            <div className="hero-text">
+                <h4>Software Developer</h4>
+                <p>Code or something!</p>
+                <p className="text-center">{quote}</p>
+            </div>
+            <div>
+            </div>
         </section>
     )
 }
