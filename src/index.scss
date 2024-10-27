@@ -108,6 +108,8 @@ div .hero-text {
     }
 }
 
+
+
 // Work Section
 main {
     color: #fff;
@@ -118,6 +120,13 @@ main {
         border-bottom: 1px solid #999;
         padding-bottom: 10px;
         border-bottom: solid;
+    }
+
+    section.about-output {
+        display: flex;
+        background: #000000; //colorzilla match border
+        margin-bottom: 20px;
+        padding-top: 10px;
     }
 
     section.work-output {
