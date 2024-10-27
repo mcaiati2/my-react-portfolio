@@ -19,13 +19,22 @@ function ContactForm() {
 	// only use state variables when it needs to effect some kind of html
 	const [formData, setFormData] = useState(initialState);
 	const [alertMessage, setAlertMessage] = useState('');
+	const [errorMessage, setErrorMessage] = useState('');
 
 	const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
 		event.preventDefault();  // stop it from submitting
 
+		const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+		if (!emailRegex.test(formData.email)) {
+            setErrorMessage('Please enter a valid email address!');
+            return;
+		}
+
 		await axios.post(url, formData);
 
 		setAlertMessage('Your message has been received!');
+		setErrorMessage(''); // clear error message once submitted
 
 		setTimeout(() => {
 			setAlertMessage(''); // once timer runs out, call again
@@ -51,7 +60,8 @@ function ContactForm() {
 
 			{/* conditional for if alertMessage should show up */}
 			{/* can also use terinary operation */}
-			{alertMessage && <p className="message text-center">{alertMessage}</p>}
+			{alertMessage && <p className="success text-center">{alertMessage}</p>}
+			{errorMessage && <p className="error text-center">{errorMessage}</p>}
 
 			{/* need a name prop on each! */}
 			<input type="hidden" name="access_key" value={accessKey} />

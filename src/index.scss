@@ -13,7 +13,7 @@ body,
 }
 
 body {
-    background: #777;
+    background: #444444;
 }
 
 #root {
@@ -30,25 +30,27 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #555;
+    background: #111111;
     color: #fff;
     padding: 8px 5%;
 
-    div.logo {
+    #remove-underline {
         display: flex;
-        align-items: center;
-        overflow: hidden;
-
-        img {
-            width: 50px;
-            margin-right: 15px;
-            border-radius: 10px;
-        }
-
-        h3 {
-            font-weight: 400;
-        }
+        text-decoration: none;
+        color: #fff;
     }
+
+    img {
+        width: 50px;
+        margin-right: 15px;
+        border-radius: 10px;
+    }
+
+    h3 {
+        font-weight: 400;
+        text-decoration: none;
+    }
+
 
     nav {
         a {
@@ -61,23 +63,28 @@ header {
 
             &:hover,
             &.active {
-                text-decoration: underline;
+                color: #4CAF50;
+
             }
         }
     }
 }
 
+
+
 // Hero Section
 section.hero {
     display: flex;
-    background: #A39A8F; //colorzilla match border
+    background: #000000; //colorzilla match border
     margin-bottom: 20px;
+    padding-top: 10px;
 
     div.image {
         //need to add size to div or it wont show
-        background-image: url('/images/oliver.jpeg');
-        background-size: cover; //cover tries to make fit
+        background-image: url('/images/formal-me-no-background.png');
+        background-size: contain; //cover tries to make fit
         background-position: center;
+        background-repeat: no-repeat;
         min-height: 400px;
         min-width: 50%;
     }
@@ -120,6 +127,16 @@ main {
         gap: 10px;
         padding: 0, 3%;
 
+        a {
+            text-decoration: none;
+            color: inherit;
+
+            &:hover {
+                text-decoration: underline;
+                opacity: 50%
+            }
+        }
+
         article {
             padding: 15px; // all around
             background-size: cover; // tries to fit
@@ -133,6 +150,7 @@ main {
             p {
                 font-size: .8rem;
                 line-height: 1.3; // this and 1.5 are most common
+
             }
         }
     }
@@ -156,8 +174,12 @@ form {
         color: #fff;
     }
 
-    p.message {
+    p.success {
         color: #82fe84;
+    }
+
+    p.error {
+        color: rgb(101, 46, 46);
     }
 
     input,
@@ -192,8 +214,23 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 35px 5%;
-    background: #878787;
-    color: #ccc;
+    background: #111111;
+    color: #fff;
+}
+
+#footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#white-background {
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+footer img {
+    max-height: 30px;
 }
 
 @media (max-width: 750px) {

@@ -4,7 +4,18 @@ function Footer() {
     <footer>
       <p>&copy; Copyright {date.getFullYear()} </p>
       <p>Designed & Developed By Mike Caiati</p>
-      {/* icons inserted here */}
+      <p>Logo Design By Freepik</p>
+        <div id="footer-icons">
+          <a href="https://github.com/mcaiati2">
+            <img src="/images/github-logo-white.png" alt="GitHub Logo" />
+          </a>
+          <a href="https://www.linkedin.com/in/michael-caiati">
+            <img src="/public/images/linkedin-logo-white.png" alt="LinkedIn Logo" />
+          </a>
+          <a href="https://stackoverflow.com/users/28009833/mike-caiati">
+            <img id="white-background" src="/public/images/stack-overflow-icon.png"></img>
+          </a>
+        </div>
     </footer>
   )
 }

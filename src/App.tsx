@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 
 import Landing from './pages/Landing';
 import ContactForm from './pages/ContactForm';
+import About from './pages/About';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           {/* Route tag needs two props. path name you want to listen for. / for the root of our address. and what element you want to show */}
           <Route path="/" element={<Landing />} />
           <Route path="/contact" element={<ContactForm />} />
+          <Route path="/about" element={<About />} />
 
         </Routes>
       </main>
