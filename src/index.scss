@@ -13,7 +13,7 @@ body,
 }
 
 body {
-    background: #444444;
+    background: #181818;
 }
 
 #root {
@@ -34,8 +34,10 @@ header {
     color: #fff;
     padding: 8px 5%;
 
+
     #remove-underline {
         display: flex;
+        align-items: center;
         text-decoration: none;
         color: #fff;
     }
@@ -75,7 +77,9 @@ header {
 // Hero Section
 section.hero {
     display: flex;
-    background: #000000; //colorzilla match border
+    background: #000000;
+    width: 100%;
+    height: 75vh;
     margin-bottom: 20px;
     padding-top: 10px;
 
@@ -85,7 +89,7 @@ section.hero {
         background-size: contain; //cover tries to make fit
         background-position: center;
         background-repeat: no-repeat;
-        min-height: 400px;
+        min-height: 300px;
         min-width: 50%;
     }
 }
@@ -105,6 +109,9 @@ div .hero-text {
 
     p {
         font-weight: 300;
+        color: #4CAF50;
+        font-style: italic;
+
     }
 }
 
@@ -126,16 +133,49 @@ main {
         display: flex;
         background: #000000; //colorzilla match border
         margin-bottom: 20px;
-        padding-top: 10px;
+        width: 100%;
+        height: 75vh;
+
+        div.image {
+            //need to add size to div or it wont show
+            background-image: url('/images/hike.JPG');
+            background-size: cover; //cover tries to make fit
+            opacity: 75%;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 336px;
+            min-width: 50%;
+
+        }
+    }
+    
+    div.about-text {
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-width: 50%;
+        padding: 30px;
+    
+        h4 {
+            font-size: 2.2rem;
+            color: #4CAF50;
+        }
+    
+        p {
+            font-weight: 300;
+        }
     }
 
     section.work-output {
         // nested selection
         display: grid;
         grid-template-columns: 1fr 1fr; // only 2 articles per row
-        gap: 10px;
-        padding: 0, 3%;
-
+        gap: 25px;
+        // padding: 10, 3%;
+        padding: 30px;
+        margin: 20px;
         a {
             text-decoration: none;
             color: inherit;
@@ -169,9 +209,11 @@ main {
 form {
     display: flex; // by default falls left to right
     flex-direction: column; // top to bottom
-    width: 400px;
-    margin: 0 auto 25px; //centers in the middle of page, 25px bottom margin
-
+    width: 500px;
+    margin: 0 auto 50px; //centers in the middle of page, 25px bottom margin
+    gap: 5px;
+    padding-top: 10%;
+    ;
     >* {
         // every direct child element, which is inputs/button
         padding: 7px 12px; // top/bottom left/right
@@ -183,12 +225,13 @@ form {
         color: #fff;
     }
 
+
     p.success {
-        color: #82fe84;
+        color: #4CAF50;
     }
 
     p.error {
-        color: rgb(101, 46, 46);
+        color: #FF6347;
     }
 
     input,

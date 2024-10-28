@@ -6,10 +6,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 
 
-TODO - Image on About Page
-TODO - Add About Page veribage
 TODO - github and deployed app links (?)
-TODO - fix form styling
 
 TODO - Explain Work.tsx code that we added
 TODO - Explain index.scss code that we added

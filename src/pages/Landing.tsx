@@ -8,8 +8,9 @@ function Landing() {
 			<Hero />
 
 			<About />
-
+			
 			<Work />
+
 		</>
 	)
 }

@@ -24,8 +24,8 @@ function Hero() {
             <div className="image"></div>
             <div className="hero-text">
                 <h4>Software Developer</h4>
-                <p>Code or something!</p>
-                <p className="text-center">{quote}</p>
+                <p>Innovative Coding for Modern Solutions</p>
+                {/* <p className="text-center">{quote}</p> */}
             </div>
             <div>
             </div>

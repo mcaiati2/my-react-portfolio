@@ -3,7 +3,7 @@ const workItems = [
 		title: 'Weather App',
 		description: 'Amazing weather application made with Typescript, Node, and Vite',
 		backgroundImage: '/images/sunny-weather.webp',
-		link: 'https://github.com/mcaiati2/api_weather_challenge'
+		link: 'https://api-weather-challenge-2.onrender.com/'
 	},
 	{
 		title: 'Employee Tracker',
