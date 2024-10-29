@@ -8,10 +8,10 @@ function Work() {
         {/* only use the indx on the map if we don't have another unique identifier */}
         {workItems.map((workObj, index) => (
           <article style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(${workObj.backgroundImage})` }}>
-              <a key={index} href={workObj.link} target="_blank" rel="noopener noreferrer">
               <h3>{workObj.title}</h3>
               <p>{workObj.description}</p>
-          </a>
+              <a href={workObj.repoLink} className="tag-group">GitHub</a>
+                {workObj.deployedLink && <a href={workObj.deployedLink} className="tag-group">Live Site</a>}
             </article>
         ))}
         </section>

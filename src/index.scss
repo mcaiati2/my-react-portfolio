@@ -186,17 +186,18 @@ main {
         a {
             text-decoration: none;
             color: inherit;
+            display: flex;
+            justify-content: center;
 
-            
         }
 
         article {
-            padding: 15px; // all around
             background-size: cover; // tries to fit
             background-position: center;
             border-radius: 3px; // subtle round edges
             height: 250px;
             color: #FFFFFF;
+            
 
             &:hover  {
                 opacity: 50%;
@@ -215,7 +216,16 @@ main {
             p {
                 font-size: .8rem;
                 line-height: 1.3; // this and 1.5 are most common
+                padding-bottom: 10px;
+            }
 
+            .tag-group {
+                position: center;
+                line-height: 1.3;
+                &:hover {
+                    text-decoration: underline;
+                    opacity: 100%
+                }
             }
         }
     }
