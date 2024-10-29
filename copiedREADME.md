@@ -6,7 +6,6 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 
 
-TODO - github and deployed app links (?)
 
 TODO - Explain Work.tsx code that we added
 TODO - Explain index.scss code that we added

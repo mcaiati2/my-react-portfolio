@@ -1,8 +1,9 @@
 function About() {
   return (
     <>
-      <h4 className="text-center"></h4>
-      <section id="about-section" className="about-output">
+      <h4 className="text-center" id="about-section"></h4>
+      <section  className="about-output">
+        <div className="image"></div>
         <div className="about-text">
           <h4>Hello!</h4>
           <p>
@@ -20,9 +21,7 @@ function About() {
           <p>
             You can reach me on LinkedIn, GitHub, or from the Contact section of this site. I'm excited to connect and see what we can build next!
           </p>
-
         </div>
-        <div className="image"></div>
       </section>
     </>
   )
