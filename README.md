@@ -1,50 +1,34 @@
-# React + TypeScript + Vite
+# GraphQL Book Refactor
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+- [License](#license)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Description
+With the book search app, you can search for your favorite books and save them to your profile!
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Installation
+You must run npm i to install all necessary dependencies. This app uses Express, Mongoose, and Bcrypt.ß
 
-- Configure the top-level `parserOptions` property like this:
+## Usage
+To create a profile, click the Sign Up link at the top. You will be prompted to enter your email address create a username and password. You can then use the search bar to search for a book to add to your collection. Click "Add Book" to add it to your list!
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Contributing
+N/A
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Tests
+N/A
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Questions
+Message me on GitHub! [mcaiati2](https://github.com/mcaiati2)
+
+## License
+This project is listed under the MIT [License](https://opensource.org/licenses/MIT). You are free to use, modify, and distribute this software in accordance with the terms of the license. For more details, please refer to the LICENSE file in the repository.
