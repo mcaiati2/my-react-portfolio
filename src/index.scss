@@ -288,6 +288,22 @@ form {
     }
 }
 
+// Resume Section
+
+#resume-output {
+    padding-top: 25px;
+}
+
+.bulleted-list {
+    list-style-type: disc;
+    padding-left: 20px; /* Optional: Adds some padding to the left */
+  }
+
+#resume-download {
+    text-decoration: none !important;
+
+}
+
 // Footer
 footer {
     display: flex;

@@ -7,35 +7,40 @@ const workItems = [
 		repoLink: 'https://github.com/mcaiati2/api_weather_challenge'
 	},
 	{
-		title: 'Employee Tracker',
-		description: 'Terminal app made with Node, Typescript, Postgres, and Inquirer',
-		backgroundImage: '/images/office.webp',
-		repoLink: 'https://github.com/mcaiati2/employee_tracker_database'
+		title: 'Feast Fusion',
+		description: 'Fullstack Recipe Tracker Using Postgres and React',
+		backgroundImage: '/images/food.jpg',
+		deployedLink: 'https://feast-fusion.onrender.com/',
+		repoLink: 'https://github.com/mcaiati2/feast_fusion'
 	},
 	{
-		title: 'Vehicle Builder',
-		description: 'Terminal app made with Node, Typescript, and Inquirer',
-		backgroundImage: '/images/vehicle.webp',
-		link: 'https://github.com/mcaiati2/vehicle_builder_challenge'
+		title: 'Petstagram',
+		description: 'Fullstack MERN Pet Social Network App',
+		backgroundImage: '/images/cat.jpg',
+		deployedLink: 'https://pet-app-mern-graphql-9lxm.onrender.com',
+		repoLink: 'https://github.com/mcaiati2/mern_petstagram_fullstack/tree/main'
 	},
 	{
-		title: 'Readme Generator',
-		description: 'Terminal app made with Node, Typescript, and Inquirer',
-		backgroundImage: '/images/computer-screen.webp',
-		link: 'https://github.com/mcaiati2/readme_generator_node_challenge'
+		title: 'Book Search Tracker',
+		description: 'GraphQL API Book Tracker',
+		backgroundImage: '/images/books2.jpg',
+		deployedLink: 'https://graphql-book-refactor-v2.onrender.com/',
+		repoLink: 'https://github.com/mcaiati2/graphql_book_refactor'
+		
 	},
 	{
 		title: 'Money Monder',
 		description: 'Made with HTML, CSS, and JavaScript',
 		backgroundImage: 'images/money-greyscale.jpeg',
 		deployedLink: 'https://mcaiati2.github.io/money-minder/',
-		link: 'https://github.com/mcaiati2/money-minder'
+		repoLink: 'https://github.com/mcaiati2/money-minder'
 	},
 	{
-		title: "Payroll Tracker",
-		description: 'Made with HTML, CSS, and JavaScript',
+		title: "Kanban Project Board",
+		description: 'Project Board Using JWT User Authentication',
 		backgroundImage: '/images/payroll-list.webp',
-		link: 'https://github.com/mcaiati2/js_employee_payroll_tracker'
+		deployedLink: 'https://kanban-fullstack-challenge.onrender.com',
+		repoLink: 'https://github.com/mcaiati2/kanban_fullstack_challenge/tree/main'
 	}
 ];
 

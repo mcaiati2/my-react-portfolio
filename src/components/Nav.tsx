@@ -7,7 +7,7 @@ function Nav() {
       <NavLink to="/">Home</NavLink>
       <Link smooth to="#about-section">About</Link>
       <Link smooth to="#portfolio-section">Portfolio</Link>
-      <a href="/docs/michael-caiati-resume.pdf" download="michael-caiati-resume.pdf">Resume</a>
+      <NavLink to="/resume">Resume</NavLink>
       <NavLink to="/contact">Contact</NavLink>
     </nav>
   );
