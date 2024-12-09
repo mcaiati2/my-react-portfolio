@@ -1,10 +1,10 @@
 const workItems = [
 	{
-		title: 'Weather App',
-		description: 'Made with Typescript, Node, and Vite',
-		backgroundImage: '/images/sunny-weather.webp',
-		deployedLink: 'https://api-weather-challenge-2.onrender.com/',
-		repoLink: 'https://github.com/mcaiati2/api_weather_challenge'
+		title: 'JavaJournal',
+		description: 'Fullstack MERN Coffee Recipe Finder / Custom Log',
+		backgroundImage: '/images/javajournal-alt.png',
+		deployedLink: 'https://javajournal.onrender.com',
+		repoLink: 'https://github.com/mcaiati2/javajournal'
 	},
 	{
 		title: 'Feast Fusion',
