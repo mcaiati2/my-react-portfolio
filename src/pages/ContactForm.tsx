@@ -55,8 +55,9 @@ function ContactForm() {
 	}
 
 	return (
-		<form onSubmit={handleSubmit} id="contact">
-			<h3 className="text-center">Contact Me</h3>
+		<div id="contact-image">
+					<form onSubmit={handleSubmit} id="contact">
+			<h3 className="text-center">Lets Get in Touch!</h3>
 
 			{/* conditional for if alertMessage should show up */}
 			{/* can also use terinary operation */}
@@ -70,9 +71,10 @@ function ContactForm() {
 			{/* name value should match property in the section above */}
 			<input onChange={handleInputChange} value={formData.full_name} name="full_name" type="text" placeholder="Enter your full name" required />
 			<input onChange={handleInputChange} value={formData.email} name="email" type="text" placeholder="Enter your email address" required />
-			<textarea onChange={handleInputChange} value={formData.message} name="message" placeholder="Tell me something" required></textarea>
+			<textarea onChange={handleInputChange} value={formData.message} name="message" placeholder="Enter your message" required></textarea>
 			<button >Send</button>
 		</form>
+		</div>
 	)
 }
 

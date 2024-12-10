@@ -5,8 +5,8 @@ function Nav() {
   return (
     <nav>
       <NavLink to="/">Home</NavLink>
-      <Link smooth to="#about-section">About</Link>
-      <Link smooth to="#portfolio-section">Portfolio</Link>
+      <Link smooth to="/#about-section">About</Link>
+      <Link smooth to="/#portfolio-section">Portfolio</Link>
       <NavLink to="/resume">Resume</NavLink>
       <NavLink to="/contact">Contact</NavLink>
     </nav>

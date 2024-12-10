@@ -1,7 +1,7 @@
 const workItems = [
 	{
 		title: 'JavaJournal',
-		description: 'Fullstack MERN Coffee Recipe Finder / Custom Log',
+		description: 'Fullstack MERN Coffee Recipe Finder and Favorites Log',
 		backgroundImage: '/images/javajournal-alt.png',
 		deployedLink: 'https://javajournal.onrender.com',
 		repoLink: 'https://github.com/mcaiati2/javajournal'
