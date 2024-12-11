@@ -36,11 +36,10 @@ const workItems = [
 		repoLink: 'https://github.com/mcaiati2/money-minder'
 	},
 	{
-		title: "Kanban Project Board",
-		description: 'Project Board Using JWT User Authentication',
-		backgroundImage: '/images/payroll-list.webp',
-		deployedLink: 'https://kanban-fullstack-challenge.onrender.com',
-		repoLink: 'https://github.com/mcaiati2/kanban_fullstack_challenge/tree/main'
+		title: "Node README Generator",
+		description: 'Terminal app developed to help beginner developers create professional and detailed README files for their repositories',
+		backgroundImage: '/images/terminal.jpg',
+		repoLink: 'https://github.com/mcaiati2/node-readme-generator'
 	}
 ];
 
