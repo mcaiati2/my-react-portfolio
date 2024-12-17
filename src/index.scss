@@ -180,7 +180,6 @@ main {
         display: grid;
         grid-template-columns: 1fr 1fr; // only 2 articles per row
         gap: 25px;
-        // padding: 10, 3%;
         padding: 15px;
         margin: 20px;
 
@@ -198,6 +197,7 @@ main {
             border-radius: 3px; // subtle round edges
             height: 250px;
             color: #FFFFFF;
+            padding-top: 30px;
             
 
             &:hover  {
@@ -217,7 +217,7 @@ main {
             p {
                 font-size: .8rem;
                 line-height: 1.3; // this and 1.5 are most common
-                padding-bottom: 10px;
+                margin-bottom: 25px;
             }
             
 
@@ -231,6 +231,7 @@ main {
         }
     }
 }
+
 
 // Contact Section
 form {

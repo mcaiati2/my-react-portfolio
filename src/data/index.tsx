@@ -7,11 +7,11 @@ const workItems = [
 		repoLink: 'https://github.com/mcaiati2/javajournal'
 	},
 	{
-		title: 'Feast Fusion',
-		description: 'Fullstack Recipe Tracker Using Postgres and React',
-		backgroundImage: '/images/food.jpg',
-		deployedLink: 'https://feast-fusion.onrender.com/',
-		repoLink: 'https://github.com/mcaiati2/feast_fusion'
+		title: 'Wine Buyer Cellar',
+		description: 'Fullstack Wine Shop Tracker Using Postgres and React',
+		backgroundImage: '/images/wine-table.jpg',
+		deployedLink: 'https://wine-buyer-cellar.onrender.com',
+		repoLink: 'https://github.com/mcaiati2/wine-buyer-cellar'
 	},
 	{
 		title: 'Petstagram',

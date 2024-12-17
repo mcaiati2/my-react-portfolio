@@ -11,7 +11,7 @@ function Work() {
               <h3>{workObj.title}</h3>
               <p>{workObj.description}</p>
               <a href={workObj.repoLink} className="tag-group">GitHub</a>
-                {workObj.deployedLink && <a href={workObj.deployedLink} className="tag-group">Live Site</a>}
+                {workObj.deployedLink && <a href={workObj.deployedLink} className="tag-group">Deployed Application</a>}
             </article>
         ))}
         </section>
