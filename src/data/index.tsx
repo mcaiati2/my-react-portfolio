@@ -14,15 +14,15 @@ const workItems = [
 		repoLink: 'https://github.com/mcaiati2/wine-buyer-cellar'
 	},
 	{
-		title: 'Petstagram',
-		description: 'Fullstack MERN Pet Social Network App',
+		title: 'Pet-Connect',
+		description: 'Fullstack MERN Pet Social Network App (Please allow some time for instance to build once clicked)',
 		backgroundImage: '/images/cat.jpg',
 		deployedLink: 'https://pet-app-mern-graphql-9lxm.onrender.com',
-		repoLink: 'https://github.com/mcaiati2/mern_petstagram_fullstack/tree/main'
+		repoLink: 'https://github.com/mcaiati2/pet-connect'
 	},
 	{
-		title: 'Book Search Tracker',
-		description: 'GraphQL API Book Tracker',
+		title: 'Book-Worm',
+		description: 'GraphQL API Book Tracker (Please allow some time for instance to build once clicked)',
 		backgroundImage: '/images/books2.jpg',
 		deployedLink: 'https://graphql-book-refactor-v2.onrender.com/',
 		repoLink: 'https://github.com/mcaiati2/graphql_book_refactor'
